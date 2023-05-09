@@ -34,6 +34,11 @@ a {
 display : flex;
 justify-content: center;
 }
+.audio-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
      </style>
 </head>
 <body>
@@ -52,7 +57,8 @@ justify-content: center;
    <br>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/hc44C8iI6oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <br>
-   <audio
+<div class="audio-container">
+   <audio class="audio"
    controls
    src="C:\Users\conno\Downloads\ignorant.wav">
        <a href="C:\Users\conno\Downloads\ignorant.wav">
@@ -60,7 +66,7 @@ justify-content: center;
        </a>
 </audio>
 <br>
-<audio
+<audio class="audio"
 controls
 src="C:\Users\conno\Downloads\CRESCENTROLL2.wav">
     <a href="C:\Users\conno\Downloads\CRESCENTROLL2.wav">
@@ -68,12 +74,13 @@ src="C:\Users\conno\Downloads\CRESCENTROLL2.wav">
     </a>
 </audio>
 <br>
-<audio
+<audio class="audio"
 controls
 src="C:\Users\conno\Downloads\lotteremix.mp3">
     <a href="C:\Users\conno\Downloads\lotteremix.mp3">
         Download audio
     </a>
 </audio>
+</div>
 </body>
 </html>
